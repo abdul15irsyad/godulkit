@@ -1,0 +1,14 @@
+# Go workspace (lokal saja, dibuat lewat `make work`)
+go.work
+go.work.sum
+
+# Build & test artifacts
+*.test
+*.out
+coverage.*
+/bin/
+
+# Editor & OS
+.idea/
+.vscode/
+.DS_Store
